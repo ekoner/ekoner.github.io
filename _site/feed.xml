@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="eng_GB"><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="eng_GB" /><updated>2019-09-03T11:30:03+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Data Strategy by Edafe Onerhime</title><subtitle>Learn how a data strategy can transform your business, provide value to customers, build trust and loyalty, boost productivity, and generate more revenue.</subtitle><author><name>ekoner</name></author><entry xml:lang="eng_GB"><title type="html">Why your business needs a data strategy and how to get started</title><link href="http://localhost:4000/blog/2019/09/01/why-your-business-needs-a-data-strategy.html" rel="alternate" type="text/html" title="Why your business needs a data strategy and how to get started" /><published>2019-09-01T08:00:00+01:00</published><updated>2019-09-01T08:00:00+01:00</updated><id>http://localhost:4000/blog/2019/09/01/why-your-business-needs-a-data-strategy</id><content type="html" xml:base="http://localhost:4000/blog/2019/09/01/why-your-business-needs-a-data-strategy.html">&lt;p&gt;&lt;a href=&quot;/assets/images/headers/header-diverse-boardroom-min.jpg&quot;&gt;&lt;img src=&quot;/assets/images/headers/header-diverse-boardroom-min.jpg&quot; alt=&quot;Quote: A data strategy belongs in the board room&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Businesses have always run on data, from &lt;a href=&quot;https://en.wikipedia.org/wiki/Sumer#Language_and_writing&quot;&gt;5,000 year old Sumerian trade on clay tablets&lt;/a&gt; to today’s silicon-driven &lt;a href=&quot;https://eiuperspectives.economist.com/sites/default/files/Artificial_intelligence_in_the_real_world_1.pdf&quot;&gt;artificial intelligence algorithms&lt;/a&gt;, data is at the heart of practically every business decision.&lt;/p&gt;
+
+&lt;p&gt;Data is used everywhere in your business and in every team.  Successful businesses use data to:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Deliver marketing strategy by creating market segments&lt;/li&gt;
+  &lt;li&gt;Help sales predict which customers will buy what products and when&lt;/li&gt;
+  &lt;li&gt;Monitor customer satisfaction in customer services&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Better data leads to better decisions which creates competitive advantage. Here I’ll explain why you need a data strategy and how to get started.&lt;/p&gt;
+
+&lt;p&gt;Just as &lt;a href=&quot;https://hbr.org/2007/09/demystifying-strategy-the-what&quot;&gt;a good business strategy is a roadmap&lt;/a&gt; to creating competitive advantage, a data strategy is roadmap to how your business will get, store, use and protect data to meet its goals.&lt;/p&gt;
+
+&lt;p&gt;An effective &lt;a href=&quot;https://hbr.org/2017/05/whats-your-data-strategy&quot;&gt;data strategy&lt;/a&gt; is both defensive (protect, update and keep data accurate) and offensive (use data to compete, be productive and make a profit).&lt;/p&gt;
+
+&lt;p&gt;In some businesses, data strategy is part of the IT plan. This is business risk. Positioning data as part of technology misses the value of &lt;a href=&quot;https://blogs.informatica.com/2015/11/23/data-strategic-asset/#fbid=4WO3pGQ8V0S&quot;&gt;data as a strategic asset&lt;/a&gt;.  Data brings both risks (and the need for a defensive data strategy) and benefits (which needs an offensive data strategy).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/img/quotes/quote-data-is-a-strategic-asset-min.png&quot;&gt;&lt;img src=&quot;/assets/images/quotes/quote-data-is-a-strategic-asset-min.png&quot; alt=&quot;Quote: Data is a strategic asset&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Without an effective defensive data strategy, your business risks:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Fines for noncompliance&lt;/strong&gt;: If your business collects, uses or manages information about people, it may also need to comply with regulations like the &lt;a href=&quot;https://gdpr.eu/&quot;&gt;General Data Protection Regulation&lt;/a&gt; (&lt;strong&gt;GDPR&lt;/strong&gt;)  or the &lt;a href=&quot;https://www.hhs.gov/hipaa/for-professionals/privacy/laws-regulations/index.html&quot;&gt;Health Insurance Portability and Accountability Act&lt;/a&gt; (&lt;strong&gt;HIPAA&lt;/strong&gt;). GDPR fines are intentionally painful for businesses, large and small. Fines are up to €10 million, or up to 2% of the worldwide revenue for the previous financial year.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Poor decision-making&lt;/strong&gt;: Flawed or incomplete data can lead to employees making decisions that hurt a business, like accounting errors because customer data is duplicated, or over-spending because stock levels are wrong.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Hidden costs&lt;/strong&gt;: &lt;a href=&quot;https://hbr.org/2016/09/bad-data-costs-the-u-s-3-trillion-per-year&quot;&gt;Poor data leads to expensive mistakes&lt;/a&gt; which cause partners, suppliers and customers to lose trust in a business. Employees that have to workaround poor data are less productive, customers are impacted when orders are sent to the wrong address and suppliers become irate when invoices are paid late.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Negative media coverage&lt;/strong&gt;: There’s also a risk of unwanted media attention when serious mistakes are made, like sending correspondence to a deceased person, or mistakes in the companies financial reports.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;With an effective offensive data strategy, your business can compete with:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;A central view of information&lt;/strong&gt;: It’s likely your business uses a mix of products to manage accounting and customers, customer communication channels like social media and mailing lists. Each of these products stores information about customers, suppliers, sales, and more. With a good data strategy, you can have a central view of customers, suppliers and other important information. This central view becomes your business’s single source of truth.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Business-wide buy-in&lt;/strong&gt;: Making a data strategy a purely IT effort can lead to a lack of buy-in from other areas of your business. In IT, data becomes a technology problem. In the boardroom, data becomes everyone’s  responsibility.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Business strategy support&lt;/strong&gt;:  Your data strategy supports your business strategy with data (facts, statistics, numbers)  to test your vision, understand your networks, refine your mission and deliver your goals.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/img/quotes/quote-data-strategy-min.png&quot;&gt;&lt;img src=&quot;/assets/images/quotes/quote-data-strategy-min.png&quot; alt=&quot;Quote: A data strategy is a business-wide plan for competing, with data&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A data strategy is a business-wide plan for competing, with data&lt;/strong&gt;.  A data strategy belongs in the board room.&lt;/p&gt;
+
+&lt;p&gt;To get started with a data strategy:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Treat data as an asset aligned with your business strategy&lt;/li&gt;
+  &lt;li&gt;Bring ownership of business data to the boardroom&lt;/li&gt;
+  &lt;li&gt;Balance defensive and offensive data strategy&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;In my next article&lt;/strong&gt;, I share why data strategy fails and how you can get it right.&lt;/p&gt;
+
+&lt;p&gt;Thank you to my amazing beta readers and content wranglers:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/Amy_Hupe&quot;&gt;Amy Hupe&lt;/a&gt;: Senior Content Designer at &lt;a href=&quot;https://www.gov.uk/government/organisations/government-digital-service&quot;&gt;GDS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/likeaword&quot;&gt;Ben Proctor&lt;/a&gt;: Communications and Community Development Specialist at &lt;a href=&quot;https://thesatorilab.com&quot;&gt;Satori Lab&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/reinikainen&quot;&gt;Esko Reinikainen&lt;/a&gt;: Organisational Development Specialist at &lt;a href=&quot;https://thesatorilab.com&quot;&gt;Satori Labs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/Shi&quot;&gt;Shi Blank&lt;/a&gt;: Feral Game Developer at &lt;a href=&quot;http://wetgenes.com/welcome&quot;&gt;Wet Genes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Edafe Onerhime</name><email>hello@ekoner.com</email><uri>https://ekoner.com</uri></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/headers/header-diverse-boardroom-min.jpg" /></entry></feed>
