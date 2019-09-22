@@ -27,7 +27,7 @@ Like any well fuelled [hype cycle](https://www.gartner.com/doc/2814517/hype-cycl
 
 **But what could big data actually do for you?**
 
-Just launching a big data project didn’t make it useful, so a fifth V joined the list: **Value** (your mileage may vary, [viability](http://www.wired.com/2013/05/the-missing-vs-in-big-data-viability-and-value/) , [viscosity and virality](http://blog.softwareinsider.org/2012/02/27/mondays-musings-beyond-the-three-vs-of-big-data-viscosity-and-virality/) were also contenders.)
+Just launching a big data project didn’t make it useful, so a fifth V joined the list: **Value** (your mileage may vary, [viability](http://www.wired.com/2013/05/the-missing-vs-in-big-data-viability-and-value/), [viscosity and virality](http://blog.softwareinsider.org/2012/02/27/mondays-musings-beyond-the-three-vs-of-big-data-viscosity-and-virality/) were also contenders.)
 
 Big data was now big, fast changing, complex, credible data that if mastered, would give you access to hidden value. Like the Gillette Fusion razor, more Vs might lead to a closer shave.
 
