@@ -8,6 +8,8 @@ categories: blog
 author: "ekoner"
 lang: eng_GB
 canonical_url: "https://ekoner.com//blog/2019-09-20-how-big-data-changed-and-what-this-means-for-your-business/"
+redirect_from:
+  - /2015/01/01/big-data-will-more-vees-give-you-a-closer-shave/
 ---
 
 [![Big data: Will more Vs give you a closer shave?](/assets/images/headers/header-black-man-shaving-min.jpg)](/assets/images/headers/header-black-man-shaving-min.jpg)

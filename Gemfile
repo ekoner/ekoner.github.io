@@ -33,3 +33,4 @@ gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 gem "jekyll-remote-theme"
 gem 'jekyll-seo-tag'
 gem 'jekyll-responsive-image'
+gem 'jekyll-redirect-from'
