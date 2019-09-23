@@ -35,7 +35,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-redirect-from
-  
+
 # Set theme color here
 # Choose from: black (default), blue, gray, magenta, orange, red, white, and yellow.
 theme_color: red
