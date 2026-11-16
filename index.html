@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Edafe Onerhime | Making data make sense.</title>
+  <meta name="description" content="Edafe Onerhime, Enterprise Data Architect. Keynote speaker, tech author and community steward. Data | Design | Culture.">
+  <meta property="og:title" content="Edafe Onerhime | Making data make sense.">
+  <meta property="og:description" content="Enterprise Data Architect. Keynote speaker, tech author and community steward.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ekoner.com/">
+  <meta property="og:image" content="https://ekoner.com/images/edafe-onerhime.jpg">
+  <link rel="canonical" href="https://ekoner.com/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="images/edafe-onerhime.jpg">
+  <style>
+    :root { --paper:#F7F3EC; --white:#FFFDF8; --ink:#171717; --muted:#494642; --red:#C94B3C; --green:#557A5A; --yellow:#D8A62D; --yellow-text:#96721B; }
+    html { scroll-behavior:smooth; }
+    * { box-sizing:border-box; }
+    body { margin:0; width:100%; background:var(--paper); color:var(--ink); font-family:"Instrument Sans",sans-serif; font-size:16px; }
+    p, h1, h2, h3, blockquote { margin:0; }
+    ::selection { background:#e8d5ad; color:var(--ink); }
+    :focus-visible { outline:3px solid var(--red); outline-offset:5px; border-radius:2px; }
+    .skip-link { position:absolute; left:-9999px; top:0; background:var(--ink); color:var(--white); padding:10px 14px; z-index:100; }
+    .skip-link:focus { left:16px; top:16px; }
+
+    .display { font-family:"Instrument Serif",Georgia,serif; font-weight:400; letter-spacing:-.02em; }
+    .page-inner { width:min(100% - 64px, 1280px); margin-inline:auto; }
+
+    /* Header */
+    .site-header { position:sticky; top:0; z-index:30; background:rgba(247,243,236,.94); backdrop-filter:blur(14px); -webkit-backdrop-filter:blur(14px); }
+    .header-layout { display:flex; align-items:center; justify-content:space-between; column-gap:32px; row-gap:16px; padding-block:20px; }
+    .wordmark { font-weight:600; font-size:17px; color:var(--ink); text-decoration:none; white-space:nowrap; }
+    .site-nav { display:flex; align-items:center; gap:28px; font-size:16px; }
+    .nav-link, .social-link { text-decoration:none; color:var(--muted); transition:color .2s; }
+    .nav-link:hover, .social-link:hover { color:var(--red); }
+    .nav-link::after { content:""; display:block; width:0; height:1px; background:var(--red); transition:width .25s; }
+    .nav-link:hover::after, .nav-link:focus-visible::after { width:100%; }
+
+    /* Buttons */
+    .accent-button { display:inline-flex; align-items:center; justify-content:center; width:fit-content; padding:14px 20px; background:var(--red); color:var(--white); text-decoration:none; font-weight:600; font-size:17px; transition:background .2s,transform .2s; }
+    .accent-button:hover { background:#a93d30; transform:translateY(-2px); }
+    .small-button { padding:10px 16px; white-space:nowrap; }
+
+    /* Kickers */
+    .section-kicker { font-size:12px; font-weight:700; letter-spacing:.15em; line-height:1.5; text-transform:uppercase; }
+    .kicker-green { color:var(--green); }
+    .kicker-red { color:var(--red); }
+    .kicker-yellow { color:var(--yellow-text); }
+    .tag { display:inline-block; padding:8px 12px; background:var(--green); color:var(--white); letter-spacing:.08rem; }
+
+    /* Hero */
+    .hero { min-height:690px; min-height:78vh; display:grid; grid-template-columns:minmax(0,1.1fr) minmax(280px,.9fr); align-items:center; gap:5%; padding-block:80px 100px; }
+    .intro-line { font-size:clamp(14px,1.3vw,17px); color:var(--muted); margin-top:32px; }
+    .hero-title { font-size:clamp(72px,9.6vw,150px); line-height:.9; max-width:900px; margin:32px 0 28px; }
+    .hero-support { font-size:clamp(19px,2vw,27px); line-height:1.45; }
+    .hero-secondary { color:var(--muted); margin-top:7px; }
+    .portrait { margin:0; width:100%; max-width:560px; justify-self:end; }
+    .portrait img { display:block; width:100%; height:auto; aspect-ratio:1; mix-blend-mode:multiply; }
+    .portrait::after { content:""; display:block; width:58px; height:3px; background:var(--red); margin-top:18px; }
+
+    /* Quote */
+    .quote-section { padding-block:95px 130px; }
+    .quote-text { font-size:clamp(34px,4.5vw,66px); line-height:1.17; max-width:1090px; margin:24px 0 0; }
+    .short-rule { display:block; width:58px; height:3px; background:var(--red); margin-top:36px; }
+
+    /* Editorial sections */
+    .editorial-section { padding-block:105px 120px; scroll-margin-top:90px; }
+    .section-grid { display:grid; grid-template-columns:minmax(150px,.37fr) minmax(0,1fr); gap:clamp(32px,7vw,120px); }
+    .section-title { font-size:clamp(17px,1.65vw,22px); letter-spacing:.16em; font-weight:700; line-height:1.4; margin:0; }
+    .section-title::before { content:""; display:block; width:32px; height:4px; background:var(--green); margin-bottom:22px; }
+    .section-title.red::before { background:var(--red); }
+    .section-title.yellow::before { background:var(--yellow); }
+    .section-body { max-width:870px; }
+    .lead { font-family:"Instrument Serif",Georgia,serif; font-size:clamp(31px,3.3vw,50px); line-height:1.2; letter-spacing:-.01em; }
+    .body-copy { font-size:clamp(16px,1.3vw,19px); line-height:1.8; color:var(--muted); }
+    .side-lines { margin-top:43px; padding-left:21px; border-left:2px solid var(--green); }
+    .side-lines p + p { margin-top:14px; }
+    .text-cta { display:inline-block; margin-top:36px; padding-bottom:7px; color:var(--red); font-weight:700; text-decoration:none; border-bottom:2px solid var(--red); transition:color .2s, border-color .2s; }
+    .text-cta:hover { color:var(--green); border-color:var(--green); }
+    .sprint-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:clamp(22px,3vw,52px); margin-top:55px; }
+    .sprint-card { padding-top:17px; border-top:3px solid var(--red); }
+    .sprint-card:nth-child(2) { border-color:var(--yellow); }
+    .sprint-card:nth-child(3) { border-color:var(--green); }
+    .sprint-card h3 { font-family:"Instrument Serif",Georgia,serif; font-weight:400; font-size:clamp(31px,3.2vw,46px); line-height:1.15; letter-spacing:-.01em; margin:22px 0 0; }
+    .sprint-callout { margin-top:60px; max-width:760px; padding-left:22px; border-left:2px solid var(--yellow); }
+    .two-col { display:grid; grid-template-columns:1fr 1.05fr; gap:clamp(28px,6vw,90px); margin-top:50px; }
+    .editorial-list { list-style:none; margin:0; padding:0; }
+    .editorial-list li { padding:0 0 22px; margin-bottom:21px; border-bottom:1px solid #ddd6cb; font-size:clamp(17px,1.5vw,21px); line-height:1.5; }
+    .editorial-list li:last-child { border-bottom:0; }
+    .reading-list { margin-top:48px; }
+    .reading-list li { display:grid; grid-template-columns:12px 1fr; gap:18px; align-items:start; }
+    .reading-list li::before { content:""; width:8px; height:8px; margin-top:.65em; background:var(--red); }
+    .reading-list li:nth-child(3n+2)::before { background:var(--yellow); }
+    .reading-list li:nth-child(3n)::before { background:var(--green); }
+    .about-list { columns:2; column-gap:50px; margin-top:30px; }
+    .about-list li { break-inside:avoid; }
+    .mt-24 { margin-top:24px; }
+    .mt-36 { margin-top:36px; }
+
+    /* Conversation */
+    .conversation { scroll-margin-top:90px; padding-block:125px 145px; background:var(--white); }
+    .conversation h2 { font-size:clamp(55px,8vw,120px); line-height:1; margin:22px 0 38px; max-width:850px; }
+
+    /* Footer */
+    .site-footer { padding-block:45px 56px; }
+    .footer-layout { display:flex; justify-content:space-between; gap:35px; flex-wrap:wrap; align-items:start; }
+    .footer-tagline { font-size:27px; margin-bottom:12px; }
+    .footer-meta { font-size:14px; color:var(--muted); }
+    .footer-meta + .footer-meta { margin-top:4px; }
+    .footer-links { display:flex; flex-wrap:wrap; gap:8px; max-width:720px; color:var(--muted); line-height:1.8; list-style:none; margin:0; padding:0; }
+    .footer-links li + li::before { content:"|"; margin-right:8px; color:var(--muted); }
+
+    /* Scroll reveal */
+    .js .reveal { opacity:0; transform:translateY(22px); transition:opacity .7s ease,transform .7s ease; }
+    .js .reveal.visible { opacity:1; transform:none; }
+    @media (prefers-reduced-motion:reduce) {
+      html { scroll-behavior:auto; }
+      *, *::before, *::after { animation-duration:.01ms !important; transition-duration:.01ms !important; }
+      .js .reveal { opacity:1; transform:none; }
+    }
+
+    @media (max-width:850px) {
+      .page-inner { width:min(100% - 42px,1280px); }
+      .header-layout { align-items:flex-start; flex-wrap:wrap; }
+      .site-nav { width:100%; order:3; overflow-x:auto; padding-bottom:3px; }
+      .hero { grid-template-columns:1fr; gap:25px; padding-block:85px 75px; min-height:0; }
+      .portrait { justify-self:start; max-width:480px; }
+      .section-grid { grid-template-columns:1fr; gap:35px; }
+      .editorial-section { padding-block:75px; }
+      .quote-section { padding-block:70px 85px; }
+    }
+    @media (max-width:620px) {
+      .page-inner { width:calc(100% - 36px); }
+      .header-layout { padding-block:16px; }
+      .header-contact { font-size:12px; padding:9px 11px; }
+      .site-nav { gap:20px; font-size:13px; }
+      .hero-title { font-size:clamp(61px,15vw,100px); }
+      .sprint-grid, .two-col { grid-template-columns:1fr; }
+      .sprint-grid { gap:32px; }
+      .about-list { columns:1; }
+      .conversation { padding-block:90px 105px; }
+    }
+  </style>
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip-link" href="#top">Skip to content</a>
+
+  <header class="site-header">
+    <div class="page-inner header-layout">
+      <a href="#top" class="wordmark">Edafe Onerhime</a>
+      <nav aria-label="Main navigation" class="site-nav">
+        <a href="#models" class="nav-link">Models</a>
+        <a href="#sprints" class="nav-link">Sprints</a>
+        <a href="#speaking" class="nav-link">Speaking</a>
+        <a href="#writing" class="nav-link">Writing</a>
+        <a href="#about" class="nav-link">About</a>
+      </nav>
+      <a href="#conversation" class="accent-button small-button header-contact">Start a conversation.</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="page-inner hero" aria-labelledby="hero-title">
+      <div class="reveal">
+        <p class="section-kicker tag">Enterprise Data Architect</p>
+        <p class="intro-line">Keynote speaker | Tech author | Community steward.</p>
+        <h1 id="hero-title" class="display hero-title">Making data make sense.</h1>
+        <p class="hero-support">Data | Design | Culture.</p>
+        <p class="hero-support hero-secondary">Useful, usable, in use. Change that sticks.</p>
+        <a href="#conversation" class="accent-button mt-36">Start a conversation.</a>
+      </div>
+      <figure class="portrait reveal">
+        <img src="images/edafe-onerhime.jpg" width="1200" height="1200" alt="Black and white portrait of Edafe Onerhime, smiling, in glasses and a geometric striped shirt.">
+      </figure>
+    </section>
+
+    <section class="page-inner quote-section reveal" aria-label="Perspective">
+      <p class="section-kicker kicker-green">Data | Design | Culture</p>
+      <blockquote class="display quote-text">People can't find the data they trust, and they don't trust the data they can find. New platforms alone don't fix that. Turning your expertise into data, and making that data serve your expertise, does.</blockquote>
+      <span class="short-rule" aria-hidden="true"></span>
+    </section>
+
+    <section id="models" class="page-inner editorial-section reveal" aria-labelledby="models-heading">
+      <div class="section-grid">
+        <h2 id="models-heading" class="section-title">MODELS</h2>
+        <div class="section-body">
+          <p class="lead">Most organisations are built the same way underneath, yet everyone rebuilds the same models again and again. Reference models for what every organisation has: customers, finance, suppliers and the regulator.</p>
+          <div class="side-lines body-copy">
+            <p>Flagship: open FCA semantic model and knowledge graph, free on GitHub.</p>
+            <p>Coming next: sector models for charities and the public sector.</p>
+          </div>
+          <a href="#conversation" class="text-cta">Want this fitted to your organisation?</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="sprints" class="page-inner editorial-section reveal" aria-labelledby="sprints-heading">
+      <div class="section-grid">
+        <h2 id="sprints-heading" class="section-title red">SPRINTS</h2>
+        <div class="section-body">
+          <p class="lead">Products, not prototypes. Short, workshop-led sprints that end with a product you keep and build on.</p>
+          <div class="sprint-grid">
+            <article class="sprint-card">
+              <p class="section-kicker kicker-red">1 day</p>
+              <h3>Make sense of the mess.</h3>
+            </article>
+            <article class="sprint-card">
+              <p class="section-kicker kicker-yellow">3 days</p>
+              <h3>Fit the model.</h3>
+            </article>
+            <article class="sprint-card">
+              <p class="section-kicker kicker-green">5 days</p>
+              <h3>Make it real: a product ready to integrate into your existing systems, with governance, ownership and support built in.</h3>
+            </article>
+          </div>
+          <p class="sprint-callout body-copy">Bring your own data. Every sprint uses the real data you work with, anonymised where it is personal. For regulated organisations and funders backing a cohort of charities.</p>
+          <a href="#conversation" class="accent-button mt-36">Book a conversation.</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="speaking" class="page-inner editorial-section reveal" aria-labelledby="speaking-heading">
+      <div class="section-grid">
+        <h2 id="speaking-heading" class="section-title yellow">SPEAKING</h2>
+        <div class="section-body">
+          <p class="lead">Keynotes, conference talks and internal talks.</p>
+          <div class="two-col">
+            <ul class="editorial-list" aria-label="Speaking topics">
+              <li>Data governance as an enabler.</li>
+              <li>Products, not prototypes.</li>
+              <li>Changing behaviour with data.</li>
+              <li>Change that sticks.</li>
+            </ul>
+            <ul class="editorial-list" aria-label="Featured talks">
+              <li>2026 We Hold the Line, MEGAPHONE keynote.</li>
+              <li>2026 Beyond AI: The Architecture Skills That Will Define Your Career, BCS Women Lovelace.</li>
+              <li>2022 to 2023 White, and other defaults.</li>
+              <li>2021 Keynote, Government Service Design.</li>
+            </ul>
+          </div>
+          <a href="#conversation" class="accent-button mt-24">Book a talk.</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="writing" class="page-inner editorial-section reveal" aria-labelledby="writing-heading">
+      <div class="section-grid">
+        <h2 id="writing-heading" class="section-title">WRITING</h2>
+        <div class="section-body">
+          <p class="lead">The book: Standards: The Hidden Architecture of Transformation.</p>
+          <ul class="editorial-list reading-list">
+            <li>Open Standards for Data Guidebook (ODI)</li>
+            <li>Data Standards for Soil (Gates Open Research)</li>
+            <li>Monitoring Equality in Digital Public Services</li>
+            <li><a href="https://ekonerhime.substack.com" class="social-link">Substack essays.</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="page-inner editorial-section reveal" aria-labelledby="about-heading">
+      <div class="section-grid">
+        <h2 id="about-heading" class="section-title red">ABOUT</h2>
+        <div class="section-body">
+          <ul class="editorial-list reading-list about-list">
+            <li>Twenty in Data 2023.</li>
+            <li>Black History Month data icon.</li>
+            <li>Women in Digital.</li>
+            <li>OpenUK Ambassador.</li>
+            <li>DTBC steward.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="conversation" class="conversation" aria-labelledby="conversation-heading">
+      <div class="page-inner reveal">
+        <p class="section-kicker kicker-green">Enterprise Data Architect</p>
+        <h2 id="conversation-heading" class="display">Making data make sense.</h2>
+        <!-- TODO: swap this for your preferred contact route, e.g. mailto:you@ekoner.com -->
+        <a href="https://www.linkedin.com/in/ekoner" class="accent-button">Start a conversation.</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="page-inner footer-layout">
+      <div>
+        <p class="display footer-tagline">Making data make sense.</p>
+        <p class="footer-meta">Edafe Onerhime</p>
+        <p class="footer-meta">ekoner.com</p>
+      </div>
+      <ul class="footer-links" aria-label="Social platforms">
+        <li><a href="https://www.linkedin.com/in/ekoner" class="social-link">LinkedIn</a></li>
+        <li><a href="https://bsky.app/profile/ekoner.bsky.social" class="social-link">Bluesky</a></li>
+        <li><a href="https://www.threads.net/@ekonerhime" class="social-link">Threads</a></li>
+        <li><a href="https://www.instagram.com/ekonerhime" class="social-link">Instagram</a></li>
+        <li><a href="https://ekonerhime.substack.com" class="social-link">Substack</a></li>
+        <!-- TODO: replace YOUR-GITHUB with your GitHub username -->
+        <li><a href="https://github.com/YOUR-GITHUB" class="social-link">GitHub</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script>
+    const revealItems = document.querySelectorAll('.reveal');
+    if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.08 });
+      revealItems.forEach(item => observer.observe(item));
+    } else {
+      revealItems.forEach(item => item.classList.add('visible'));
+    }
+  </script>
+</body>
+</html>
